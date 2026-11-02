@@ -8,37 +8,37 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Violeta sereno: color principal
+        // Azul marino: color principal
         marca: {
-          50: '#f4f2fb',
-          100: '#e6e1f6',
-          200: '#cdc3ec',
-          300: '#ae9fdd',
-          400: '#8d79c9',
-          500: '#7260b3',
-          600: '#5d4c9a',
-          700: '#4b3d80',
-          800: '#3b3066',
-          900: '#2c2450',
-          950: '#17122d'
+          50: '#f1f4f9',
+          100: '#dde5f0',
+          200: '#bccbe0',
+          300: '#8fa6c9',
+          400: '#5f80ae',
+          500: '#3f6191',
+          600: '#2f4d78',
+          700: '#243d61',
+          800: '#1b2f4d',
+          900: '#12203a',
+          950: '#0a1425'
         },
-        // Coral suave: acento para llamadas a la acción secundarias
+        // Dorado sobrio: acento para llamadas a la acción secundarias
         acento: {
-          100: '#fde6dc',
-          300: '#f7b79c',
-          500: '#ea8a64',
-          600: '#b8532c'
+          100: '#f8ecd2',
+          300: '#e6c783',
+          500: '#c9993a',
+          600: '#8f6516'
         },
         // Neutros cálidos
         arena: {
-          50: '#faf8fc',
-          100: '#f2eef8',
-          200: '#e4ddef'
+          50: '#f9f8f6',
+          100: '#f1eee8',
+          200: '#e3ddd2'
         },
         tinta: {
-          500: '#57546a',
-          700: '#2f2c45',
-          900: '#191730'
+          500: '#535a68',
+          700: '#2b3140',
+          900: '#141926'
         }
       },
       fontFamily: {

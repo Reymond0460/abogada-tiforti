@@ -1,8 +1,8 @@
 {
-  "name": "psicologa-demo",
+  "name": "abogada-demo",
   "version": "1.0.0",
   "private": true,
-  "description": "Demo TiforTi: sitio web para psicóloga (agenda de sesiones + panel).",
+  "description": "Demo TiforTi: sitio web para abogada (agenda de consultas + panel).",
   "scripts": {
     "css": "tailwindcss -i ./css/tailwind.src.css -o ./css/tailwind.css --minify",
     "css:watch": "tailwindcss -i ./css/tailwind.src.css -o ./css/tailwind.css --watch",

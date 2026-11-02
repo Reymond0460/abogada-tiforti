@@ -3,8 +3,8 @@
 /* ---------- Portada ---------- */
 .portada-fondo {
   background:
-    radial-gradient(900px 400px at 85% -10%, rgba(234, 138, 100, 0.18), transparent 60%),
-    radial-gradient(700px 400px at 0% 0%, rgba(114, 96, 179, 0.14), transparent 60%),
+    radial-gradient(900px 400px at 85% -10%, rgba(201, 153, 58, 0.18), transparent 60%),
+    radial-gradient(700px 400px at 0% 0%, rgba(63, 97, 145, 0.14), transparent 60%),
     var(--c-fondo);
 }
 .sello {
@@ -38,7 +38,7 @@
 /* ---------- Agenda: barra de progreso fija ---------- */
 .barra-progreso {
   position: sticky; top: 0; z-index: 40; padding: 0.75rem 0; margin-inline: -1rem; padding-inline: 1rem;
-  background: rgba(250, 248, 252, 0.95); backdrop-filter: blur(6px); border-bottom: 1px solid var(--c-borde);
+  background: rgba(249, 248, 246, 0.95); backdrop-filter: blur(6px); border-bottom: 1px solid var(--c-borde);
 }
 .progreso { display: flex; gap: 0.4rem; }
 .progreso li { flex: 1; height: 5px; border-radius: 99px; background: var(--c-borde); transition: background 0.3s; }
@@ -91,7 +91,7 @@
 .celda strong { font-size: 1.05rem; }
 .celda:hover:not([disabled]) { border-color: var(--c-marca); }
 .celda[aria-pressed="true"] { background: var(--c-marca); border-color: var(--c-marca); color: #fff; }
-.celda[disabled] { background: var(--c-fondo); color: #a9a6ba; cursor: not-allowed; text-decoration: line-through; }
+.celda[disabled] { background: var(--c-fondo); color: #a3a8b3; cursor: not-allowed; text-decoration: line-through; }
 
 .paso-bloqueado { opacity: 0.45; pointer-events: none; }
 .numero-paso {

@@ -17,6 +17,9 @@
     vela: '<path d="M12 3c2 2.500 2 4 0 5-2-1-2-2.500 0-5z"/><rect x="8" y="10" width="8" height="11" rx="1.500"/>',
     maletin: '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',
     escudo: '<path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/>',
+    balanza: '<path d="M12 4v16M7 20h10M5 8h14M5 8l-3 7h6zM19 8l-3 7h6z"/>',
+    casa: '<path d="M3 11l9-8 9 8M5 10v10h14V10M10 20v-6h4v6"/>',
+    llave: '<circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M16 7l3 3M14 9l2 2"/>',
     familia: '<circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.500"/><path d="M2 20a6 6 0 0 1 12 0M14 20a4.500 4.500 0 0 1 8 0"/>'
   };
   const icono = (clave, tam = 26) => `<svg width="${tam}" height="${tam}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONOS[clave] || ICONOS.chat}</svg>`;

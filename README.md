@@ -1,13 +1,13 @@
-# Demo TiforTi · Psicóloga
+# Demo TiforTi · Abogada
 
-Sitio web para una psicóloga clínica (ficticia: Camila Reyes), derivado de la demo "Profesional independiente".
-Capta pacientes con agenda de sesiones en línea y confirmación por WhatsApp. Incluye panel de administración.
+Sitio web para una abogada (Constanza Rodríguez, estudio jurídico "Coni 902"), derivado de la demo "Profesional independiente".
+Capta clientes con agenda de consultas en línea y confirmación por WhatsApp. Incluye panel de administración.
 Sitio estático, sin frameworks: HTML + Tailwind 3 (compilado) + JavaScript simple.
 
 ## Estructura
 
 ```
-index.html                    Sitio público (portada, sobre mí, motivos de consulta, servicios, procesos, testimonios, FAQ, contacto)
+index.html                    Sitio público (portada, sobre mí, áreas de práctica, servicios, casos, testimonios, FAQ, contacto)
 agendar.html                  Reserva de consultas (servicio → día → hora → datos)
 admin.html                    Panel (PIN de demo: 1234): citas, servicios, horarios, ajustes
 politica-de-privacidad.html   Páginas legales (texto de ejemplo)
@@ -15,7 +15,7 @@ cookies.html
 terminos.html
 css/estilos.css               Importa los módulos 01..04 (tiene el índice "qué cambia qué")
 css/tailwind.css              GENERADO (npm run css). No editar.
-js/config.js                  Marca, WhatsApp, PIN, motivos de consulta y datos iniciales (sin lógica)
+js/config.js                  Marca, WhatsApp, PIN, áreas de práctica y datos iniciales (sin lógica)
 js/utils.js                   Fechas, moneda, escape de HTML, avisos
 js/repo.js                    ÚNICO lugar que guarda/lee datos (LocalRepo / RemoteRepo)
 js/nucleo.js                  Reglas de negocio (disponibilidad, validación de citas)

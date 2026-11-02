@@ -1,19 +1,19 @@
 /* 01-base.css — variables de marca, tipografía base y accesibilidad. */
 
 :root {
-  --c-marca: #4b3d80;
-  --c-marca-osc: #2c2450;
-  --c-marca-clara: #f4f2fb;
-  --c-acento: #ea8a64;
-  --c-fondo: #faf8fc;
+  --c-marca: #243d61;
+  --c-marca-osc: #12203a;
+  --c-marca-clara: #f1f4f9;
+  --c-acento: #c9993a;
+  --c-fondo: #f9f8f6;
   --c-superficie: #ffffff;
-  --c-borde: #e4ddef;
-  --c-texto: #191730;
-  --c-texto-suave: #57546a;
+  --c-borde: #e3ddd2;
+  --c-texto: #141926;
+  --c-texto-suave: #535a68;
   --c-error: #b42318;
   --c-ok: #1f7a4d;
   --radio: 14px;
-  --sombra: 0 1px 2px rgba(25, 23, 48, 0.06), 0 8px 24px rgba(25, 23, 48, 0.06);
+  --sombra: 0 1px 2px rgba(20, 25, 38, 0.06), 0 8px 24px rgba(20, 25, 38, 0.06);
 }
 
 html { scroll-behavior: smooth; scroll-padding-top: 5rem; }

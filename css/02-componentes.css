@@ -31,7 +31,7 @@
   background: #fff; border: 1.5px solid var(--c-borde); border-radius: 10px; color: var(--c-texto);
 }
 .campo input:focus, .campo select:focus, .campo textarea:focus {
-  border-color: var(--c-marca); outline: 3px solid rgba(234, 138, 100, 0.45); outline-offset: 0;
+  border-color: var(--c-marca); outline: 3px solid rgba(201, 153, 58, 0.45); outline-offset: 0;
 }
 .campo [aria-invalid="true"] { border-color: var(--c-error); }
 .campo-error { color: var(--c-error); font-size: 0.82rem; font-weight: 500; }
@@ -39,7 +39,7 @@
 /* ---------- Modal ---------- */
 .modal-fondo {
   position: fixed; inset: 0; z-index: 80; display: flex; align-items: center; justify-content: center;
-  padding: 1rem; background: rgba(23, 18, 45, 0.6); backdrop-filter: blur(3px);
+  padding: 1rem; background: rgba(10, 20, 37, 0.6); backdrop-filter: blur(3px);
 }
 .modal-fondo[hidden] { display: none; }
 .modal-caja { width: 100%; max-width: 26rem; padding: 1.75rem; background: #fff; border-radius: 18px; box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3); }
@@ -71,6 +71,6 @@
 
 /* ---------- Insignias de estado ---------- */
 .insignia { display: inline-block; padding: 0.15rem 0.65rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; }
-.insignia-pendiente { background: #fde6dc; color: #7a3417; }
+.insignia-pendiente { background: #f8ecd2; color: #6b4a0a; }
 .insignia-confirmada { background: #d9f2e3; color: #14573a; }
 .insignia-cancelada { background: #fde7e4; color: #8a1c12; }
