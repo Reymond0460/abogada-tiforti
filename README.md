@@ -1,6 +1,6 @@
 # Demo TiforTi · Abogada
 
-Sitio web para una abogada (Constanza Rodríguez, estudio jurídico "Coni 902"), derivado de la demo "Profesional independiente".
+Sitio web para una abogada (Constanza Rodríguez), derivado de la demo "Profesional independiente".
 Capta clientes con agenda de consultas en línea y confirmación por WhatsApp. Incluye panel de administración.
 Sitio estático, sin frameworks: HTML + Tailwind 3 (compilado) + JavaScript simple.
 

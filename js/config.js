@@ -5,10 +5,10 @@
 const CONFIG = {
   marca: {
     nombre: 'Constanza Rodríguez',
-    rubro: 'Abogada · Estudio jurídico Coni 902',
+    rubro: 'Abogada',
     eslogan: 'Defendemos tus derechos con claridad, cercanía y estrategia. Te explicamos cada paso de tu caso.',
     iniciales: 'CR',
-    email: 'contacto@coni902.example',
+    email: 'contacto@constanzarodriguez.example',
     telefono: '+56 9 0000 0000',
     ciudad: 'Santiago, Chile · y online',
     horarioTexto: 'Lunes a viernes, 09:00 a 18:00'
